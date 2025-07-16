@@ -1,3 +1,4 @@
+// src/keycloak.js
 import Keycloak from 'keycloak-js';
 
 const keycloak = new Keycloak({
@@ -6,4 +7,4 @@ const keycloak = new Keycloak({
   clientId: import.meta.env.VITE_APP_KEYCLOAK_CLIENT_ID,
 });
 
-export default keycloak; 
+export default keycloak;
